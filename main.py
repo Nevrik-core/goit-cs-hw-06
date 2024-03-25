@@ -21,7 +21,7 @@ SOCKET_HOST = '127.0.0.1'
 SOCKET_PORT = 5000
 
 
-MONGO_URI = 'mongodb+srv://nandr:JFZ8q8lCBYDq74Kp@cluster0.9tj3azx.mongodb.net/?authMechanism=DEFAULT'
+MONGO_URI = 'mongodb://mongodb:27017/messages_db'
 client = MongoClient(MONGO_URI)
 db = client['messages_db']
 collection = db['messages']

@@ -9,9 +9,6 @@ services:
 
   mongodb:
     image: mongo:5.0
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: nandr
-      MONGO_INITDB_ROOT_PASSWORD: JFZ8q8lCBYDq74Kp
     ports:
       - "27017:27017"
     volumes:
